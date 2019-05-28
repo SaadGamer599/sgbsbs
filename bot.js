@@ -141,7 +141,7 @@ client.on("message", async message => {
 });
 
 const adminprefix = "%";\\كرافكس
-const devs = ['اى دى حقك','اى جى شخص اخرى']
+const devs = ['454441083758182400']
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
